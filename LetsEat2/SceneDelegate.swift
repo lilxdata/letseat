@@ -1,4 +1,7 @@
-//
+// In chapters 7 & 8  we set up our storyboard using Main.storyboard
+// We added cancel functionality, and some table views.
+// We also added navigational components and a tab bar.
+
 //  SceneDelegate.swift
 //  LetsEat2
 //

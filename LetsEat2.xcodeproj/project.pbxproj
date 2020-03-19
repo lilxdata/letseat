@@ -9,23 +9,26 @@
 /* Begin PBXBuildFile section */
 		040A35F52403889000D1DB4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A35F42403889000D1DB4F /* AppDelegate.swift */; };
 		040A35F72403889000D1DB4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A35F62403889000D1DB4F /* SceneDelegate.swift */; };
-		040A35F92403889000D1DB4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A35F82403889000D1DB4F /* ViewController.swift */; };
 		040A35FC2403889000D1DB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040A35FA2403889000D1DB4F /* Main.storyboard */; };
 		040A35FF2403889000D1DB4F /* LetsEat2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040A35FD2403889000D1DB4F /* LetsEat2.xcdatamodeld */; };
-		040A36012403889300D1DB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040A36002403889300D1DB4F /* Assets.xcassets */; };
 		040A36042403889300D1DB4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040A36022403889300D1DB4F /* LaunchScreen.storyboard */; };
+		040A360C24038A0000D1DB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040A360B24038A0000D1DB4F /* Assets.xcassets */; };
+		040A360F2406171600D1DB4F /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A360D2406171600D1DB4F /* RestaurantViewController.swift */; };
+		04B3C4242423053F00EE32D6 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C4232423053F00EE32D6 /* ExploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040A35F12403889000D1DB4F /* LetsEat2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsEat2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040A35F42403889000D1DB4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		040A35F62403889000D1DB4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		040A35F82403889000D1DB4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		040A35FB2403889000D1DB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040A35FE2403889000D1DB4F /* LetsEat2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LetsEat2.xcdatamodel; sourceTree = "<group>"; };
-		040A36002403889300D1DB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040A36032403889300D1DB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040A36052403889300D1DB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040A360B24038A0000D1DB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040A360D2406171600D1DB4F /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		04B3C4222421838600EE32D6 /* CollectionViewBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionViewBasics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		04B3C4232423053F00EE32D6 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		040A35E82403889000D1DB4F = {
 			isa = PBXGroup;
 			children = (
+				04B3C4212421834800EE32D6 /* Playgrounds */,
 				040A35F32403889000D1DB4F /* LetsEat2 */,
 				040A35F22403889000D1DB4F /* Products */,
 			);
@@ -60,14 +64,23 @@
 			children = (
 				040A35F42403889000D1DB4F /* AppDelegate.swift */,
 				040A35F62403889000D1DB4F /* SceneDelegate.swift */,
-				040A35F82403889000D1DB4F /* ViewController.swift */,
 				040A35FA2403889000D1DB4F /* Main.storyboard */,
-				040A36002403889300D1DB4F /* Assets.xcassets */,
+				040A360D2406171600D1DB4F /* RestaurantViewController.swift */,
+				040A360B24038A0000D1DB4F /* Assets.xcassets */,
 				040A36022403889300D1DB4F /* LaunchScreen.storyboard */,
 				040A36052403889300D1DB4F /* Info.plist */,
 				040A35FD2403889000D1DB4F /* LetsEat2.xcdatamodeld */,
+				04B3C4232423053F00EE32D6 /* ExploreViewController.swift */,
 			);
 			path = LetsEat2;
+			sourceTree = "<group>";
+		};
+		04B3C4212421834800EE32D6 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				04B3C4222421838600EE32D6 /* CollectionViewBasics.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040A36042403889300D1DB4F /* LaunchScreen.storyboard in Resources */,
-				040A36012403889300D1DB4F /* Assets.xcassets in Resources */,
+				040A360C24038A0000D1DB4F /* Assets.xcassets in Resources */,
 				040A35FC2403889000D1DB4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040A35F92403889000D1DB4F /* ViewController.swift in Sources */,
 				040A35FF2403889000D1DB4F /* LetsEat2.xcdatamodeld in Sources */,
+				040A360F2406171600D1DB4F /* RestaurantViewController.swift in Sources */,
+				04B3C4242423053F00EE32D6 /* ExploreViewController.swift in Sources */,
 				040A35F52403889000D1DB4F /* AppDelegate.swift in Sources */,
 				040A35F72403889000D1DB4F /* SceneDelegate.swift in Sources */,
 			);
