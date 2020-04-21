@@ -161,7 +161,7 @@
                                     </constraints>
                                 </collectionReusableView>
                                 <connections>
-                                    <outlet property="dataSource" destination="phI-ll-R5i" id="VUb-e6-3vs"/>
+                                    <outlet property="dataSource" destination="phI-ll-R5i" id="uH8-QU-Cxz"/>
                                     <outlet property="delegate" destination="phI-ll-R5i" id="jkH-9d-fTf"/>
                                 </connections>
                             </collectionView>
